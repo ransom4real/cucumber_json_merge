@@ -58,9 +58,9 @@ module CucumberJsonMerge
       source_text = File.read(source_path).encode!('UTF-8', invalid: :replace)
       target_text = File.read(target_path).encode!('UTF-8', invalid: :replace)
 
-      return if target_text.match?(/\A\s*\z/m)
+      return if target_text =~ /\A\s*\z/m
 
-      if source_text.match?(/\A\s*\z/m)
+      if source_text =~ /\A\s*\z/m
         FileUtils.cp source_path, target_path
         return
       end

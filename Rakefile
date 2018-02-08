@@ -1,2 +1,2 @@
 # frozen_string_literal: true
-require 'ritual'
+require 'bundler/gem_tasks'

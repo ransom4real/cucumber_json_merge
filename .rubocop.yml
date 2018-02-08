@@ -10,9 +10,10 @@ Style/IfUnlessModifier:
   MaxLineLength: 110
 Metrics/LineLength:
   Enabled: false
-  Max;: 170
 Metrics/ClassLength:
   Max: 170
+Performance/RegexpMatch:
+  Enabled: false
 Metrics/PerceivedComplexity:
   Max: 20
 MethodLength:
