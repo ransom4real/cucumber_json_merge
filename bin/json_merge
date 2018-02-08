@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'json_merge/app'
+
+exit JsonMerge::App.new.run(*ARGV)

@@ -1,5 +1,4 @@
-require "json_merge/version"
-
 module JsonMerge
-  # Your code goes here...
+  autoload :App, 'json_merge/app'
+  autoload :VERSION, 'json_merge/version'
 end
