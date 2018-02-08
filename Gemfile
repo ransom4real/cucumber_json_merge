@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in json_merge.gemspec
+# Specify your gem's dependencies in cucumber_json_merge.gemspec
 gemspec
 
 gem 'temporaries'

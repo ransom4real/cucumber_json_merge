@@ -4,10 +4,9 @@ require 'find'
 require 'fileutils'
 require 'json'
 require 'deep_merge'
-require 'pry'
 
-module JsonMerge
-  # The Json Merge app class that handles std inputs and command line args
+module CucumberJsonMerge
+  # The Cucumber Json Merge app class that handles std inputs and command line args
   class App
     Error = Class.new(RuntimeError)
 

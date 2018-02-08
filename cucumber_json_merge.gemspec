@@ -2,11 +2,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'json_merge/version'
+require 'cucumber_json_merge/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'json_merge'
-  spec.version       = JsonMerge::VERSION
+  spec.name          = 'cucumber_json_merge'
+  spec.version       = CucumberJsonMerge::VERSION
   spec.authors       = ['Voke Ransom Anighoro']
   spec.email         = ['voke.anighoro@gmail.com']
 
