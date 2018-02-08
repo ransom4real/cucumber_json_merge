@@ -3,7 +3,6 @@ require 'optparse'
 require 'find'
 require 'fileutils'
 require 'json'
-require 'deep_merge'
 
 module CucumberJsonMerge
   # The Cucumber Json Merge app class that handles std inputs and command line args
