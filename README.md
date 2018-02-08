@@ -7,7 +7,7 @@ Merges two or more Cucumber JSON reports, such that results from the source JSON
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'json_merge'
+gem 'cucumber_json_merge'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install json_merge
+    $ gem install cucumber_json_merge
 
 ## Usage
 
