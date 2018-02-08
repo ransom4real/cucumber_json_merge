@@ -1,5 +1,6 @@
+# frozen_string_literal: true
 #!/usr/bin/env ruby
 
-require 'json_merge/app'
+require_relative '../lib/json_merge/app'
 
 exit JsonMerge::App.new.run(*ARGV)

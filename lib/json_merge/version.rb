@@ -1,11 +1,5 @@
+# frozen_string_literal: true
+# Json Merge version module
 module JsonMerge
-  VERSION = [0, 1, 0]
-
-  class << VERSION
-    include Comparable
-
-    def to_s
-      join('.')
-    end
-  end
+  VERSION = '0.1.0'
 end

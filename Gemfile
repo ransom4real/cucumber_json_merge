@@ -6,6 +6,7 @@ gemspec
 gem 'temporaries'
 
 group :dev do
-  gem 'byebug'
   gem 'looksee'
+  gem 'pry'
+  gem 'rubocop'
 end
